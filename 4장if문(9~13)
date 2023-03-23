@@ -1,0 +1,1218 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN//qmtBtPZsXzcW+k29yQq",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sirocat/python/blob/main/4%EC%9E%A5if%EB%AC%B8(9~13)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Page9"
+      ],
+      "metadata": {
+        "id": "C0_UfcTssCgl"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if 3 > 5 :\n",
+        "  print(\"Hello World\")"
+      ],
+      "metadata": {
+        "id": "_HU8JuM7sH7d"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if 3 < 5 :\n",
+        "  print(\"Hello World\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Xom6dpqAsJfN",
+        "outputId": "88e892fd-3db9-4173-ce99-4b1c843b643f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = 15\n",
+        "if age < 20:\n",
+        "  print(\"학생입니다.\")\n",
+        "print(\"안녕히가세요.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OV-8nSChsO2t",
+        "outputId": "7350abd1-ecb1-4207-d05e-662ed0085033"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "학생입니다.\n",
+            "안녕히가세요.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = 20\n",
+        "if age < 20:\n",
+        "  print(\"학생입니다.\")\n",
+        "print(\"안녕히가세요.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cryhgWx0sXCF",
+        "outputId": "696dd85f-e961-4d63-81be-d8b5eeebf7ce"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "안녕히가세요.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print( 3 == 5)\n",
+        "print(3 != 5)\n",
+        "print( 3 < 5)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-j8zb8GCsdsO",
+        "outputId": "e338a5ec-cd78-4724-967a-3dcb53aa5625"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n",
+            "True\n",
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 4\n",
+        "print(1 < x < 5)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gqgh59YBsrYe",
+        "outputId": "e522f538-7514-47ff-c9c0-bb27b6a91f04"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print( 3 >= 5)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GJCHfenisl8-",
+        "outputId": "16c4fd63-16a2-4c71-d017-e6c0e13cd783"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Page 10"
+      ],
+      "metadata": {
+        "id": "u_m9fLK-s1I-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "country = \"Korea\"\n",
+        "if country == \"Korea\":\n",
+        "    print(\"한국\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6798eNnaszWf",
+        "outputId": "9c4535a0-6dbc-45f8-860d-6cbe20369410"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "한국\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = int(input(\"몇살입니까?\"))\n",
+        "if age < 20 :\n",
+        "  print(\"학생입니다.\")\n",
+        "else:\n",
+        "  print(\"성인입니다.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sktqwq4qs_z2",
+        "outputId": "0fa8ab88-d8f0-4911-c4ac-68c58dc9ea0b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "몇살입니까?40\n",
+            "성인입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"숫자입력: \"))\n",
+        "if a % 2 == 0:\n",
+        "  print(\"짝수\")\n",
+        "else:\n",
+        "  print(\"홀수\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jS5LZhojtlhO",
+        "outputId": "abdb91d3-5d8c-4e2a-d24c-970b18da8220"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "숫자입력: 10\n",
+            "짝수\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"정수입력: \"))\n",
+        "if a % 5 == 0:\n",
+        "  print('5의 배수 입니다.')\n",
+        "else:\n",
+        "  print(\"5의 배수가 아닙니다.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KGCxwFM6tz3W",
+        "outputId": "6190becb-311a-4b40-be83-0a5bf69aa9a1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "정수입력: 15\n",
+            "5의 배수 입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "password = input(\"암호입력\")\n",
+        "if password == \"암호\":\n",
+        "  print(\"암호이다\")\n",
+        "else :\n",
+        "  print(\"암호가 아니다\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ziePkYMes__G",
+        "outputId": "3b517e97-b5fb-4f0f-b2c4-ecba2c030b37"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "암호입력암호\n",
+            "암호이다\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"숫자를 입력하세요: \"))\n",
+        "if a > 0:\n",
+        "  print('양수입니다.')\n",
+        "else:\n",
+        "  print(\"0 또는 음수입니다.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "q-xdII2dtABw",
+        "outputId": "4ddfd5b9-53b7-41ba-f18b-b418eeb18e1f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "숫자를 입력하세요: -100\n",
+            "0 또는 음수입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"첫번쨰 숫자를 입력하세요: \"))\n",
+        "b = int(input(\"두번쨰 숫자를 입력하세요: \"))\n",
+        "if a > b:\n",
+        "  print(a - b)\n",
+        "else:\n",
+        "  print(b - a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aknN4zWOtAEe",
+        "outputId": "d1671a17-1e05-4e1f-897f-1a3c3e3681e2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "첫번쨰 숫자를 입력하세요: 15\n",
+            "두번쨰 숫자를 입력하세요: 9\n",
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"1(주간근무)또는 2(야간근무)를 입력해주세요: \"))\n",
+        "b = int(input(\"근무 시간을 입력해주세요: \"))\n",
+        "if a == 1:\n",
+        "  print(a,'시간 동안 일한 주간 급여는',9500*b,'입니다')\n",
+        "else:\n",
+        "   print(a,'시간 동안 일한 주간 급여는',9500*b*1.5,'입니다')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Cm_FmeVGFpeY",
+        "outputId": "cbe76e30-e61a-4a04-f302-1e9785d96288"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1(주간근무)또는 2(야간근무)를 입력해주세요: 1\n",
+            "근무 시간을 입력해주세요: 40\n",
+            "1 시간 동안 일한 주간 급여는 380000 입니다\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = (input(\"이름을 입력하세요: \"))\n",
+        "b = int(input(\"일주일간 일한 시간을 입력하세요: \"))\n",
+        "if 40 < b:\n",
+        "  print(\"초과시간:\",b-40)\n",
+        "  c = int((40*12000) + (1.5*12000) * (b - 40))\n",
+        "  print(a,'님의 주급은',c,'입니다.')\n",
+        "else:\n",
+        "  print(a,'님의 주급은',b*12000,'입니다.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_8QzyTEIvCL1",
+        "outputId": "15de1c1a-958f-4b57-e03c-5571bfb4688e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "이름을 입력하세요: skdud\n",
+            "일주일간 일한 시간을 입력하세요: 45\n",
+            "초과시간: 5\n",
+            "skdud 님의 주급은 570000 입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print ((3 == 3) and ( 4 != 3))\n",
+        "print((3 == 3) or ( 4 != 3))\n",
+        "print(not (4 != 3))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QBGPI6bUx75E",
+        "outputId": "25f75b9c-0ff2-4179-ef52-6733f7326369"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "True\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Page11"
+      ],
+      "metadata": {
+        "id": "XMmIx_zwyJwc"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"a입력\"))\n",
+        "b = int(input(\"b입력\"))\n",
+        "if a == 3 and b == 4:\n",
+        "  print(\"OK\")\n",
+        "if a == 3 or b == 4:\n",
+        "  print(\"Okay\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ENe9dNd5yN1U",
+        "outputId": "b48922b3-e0af-4eef-d84b-fd33ce85139e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a입력3\n",
+            "b입력4\n",
+            "OK\n",
+            "Okay\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = int(input(\"숫자입력: \"))\n",
+        "if x > 10 and x % 2 == 0:\n",
+        "  print(\"10초과 짝수\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BgPKTP6hyjV0",
+        "outputId": "344b9a0b-da78-4b64-e450-10092160d81d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "숫자입력: 18\n",
+            "10초과 짝수\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"필기 성적을 입력하세요: \"))\n",
+        "b = int(input(\"실기 성적을 입력하세요: \"))\n",
+        "if a+b >= 160:\n",
+        "  print(\"합격!\")\n",
+        "else:\n",
+        "  print('불합격!')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "98oujUc-ylJs",
+        "outputId": "1c053cb7-8ae8-41cc-9f97-535f38eed300"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "필기 성적을 입력하세요: 90\n",
+            "실기 성적을 입력하세요: 50\n",
+            "불합격!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"몇 살이세요?: \"))\n",
+        "if a <= 7 or a >= 65:\n",
+        "  print(\"입장료는 무료입니다.\")\n",
+        "else :\n",
+        "  print(\"입장료는 3000원 입니다.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "98ENWBhIylhU",
+        "outputId": "13ae2e58-7211-458b-e8a8-f97559eb61ce"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "몇 살이세요?: 76\n",
+            "입장료는 무료입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = int(input(\"나이 :\"))\n",
+        "height = int(input(\"키 :\"))\n",
+        "if age >= 10 and height >= 150:\n",
+        "  print(\"놀이기구를 탈 수 있다\")\n",
+        "else:\n",
+        "  print(\"놀이기구를 탈 수 없다\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "M4OzkQ_Mylq8",
+        "outputId": "d886e559-6dd2-4d61-cf5e-01887b9b5fd2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "나이 :10\n",
+            "키 :133\n",
+            "놀이기구를 탈 수 없다\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = str(input(\"아이디를 입력하세요 : \"))\n",
+        "b = int(input(\"회원 레벨을 입력하세요: \"))\n",
+        "if a == 'admin' or b == 1:\n",
+        "  print(\"관리자 입니다.\")\n",
+        "else:\n",
+        "  print(\"관리자가 아닙니다\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "k_6qvy1hymOU",
+        "outputId": "e619eea1-ccb2-4da1-b033-993a82384fca"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "아이디를 입력하세요 : happy\n",
+            "회원 레벨을 입력하세요: 1\n",
+            "관리자 입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"정수를 입력하세요: \"))\n",
+        "if 0 < a < 101:\n",
+        "  print(a,'은(는) 1~ 100사이에 있다.')\n",
+        "else:\n",
+        "  print(a,'은(는) 1~ 100사이에 없다.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KFg137K1ymhk",
+        "outputId": "a7065e95-057e-4348-8a80-f5c3b98d0fde"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "정수를 입력하세요: 101\n",
+            "101 은(는) 1~ 100사이에 없다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "month = 3\n",
+        "if 3 <= month <= 5:\n",
+        "  print(\"현재는 봄입니다.\")\n",
+        "elif 6 <= month <= 8:\n",
+        "  print(\"현재는 여름입니다.\")\n",
+        "elif 9 <= month <= 11:\n",
+        "  print(\"현재는 가을입니다.\")\n",
+        "else:\n",
+        "  print(\"현재는 겨울입니다.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PXqRI5gSyndN",
+        "outputId": "2a70f9b0-2357-4693-c3fb-d2a066d19b80"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "현재는 봄입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Page12"
+      ],
+      "metadata": {
+        "id": "yVr1YgyA1hnd"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"구매금액 : \"))\n",
+        "if a < 20000:\n",
+        "  print(\"새벽배송이 불가능합니다.\")\n",
+        "elif a < 50000:\n",
+        "  print(\"배송비 2500원이  추가됩니다.\")\n",
+        "else:\n",
+        "  print(\"무료배송입니다.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mdQ4nj481jok",
+        "outputId": "82ca6e94-432c-4a2b-d883-4de5d7e3c8d8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "구매금액 : 45000\n",
+            "배송비 2500원이  추가됩니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"점수를 입력하세요 : \"))\n",
+        "if a >= 90:\n",
+        "  print(\"A등급\")\n",
+        "elif a >= 80:5\n",
+        "  print(\"B등급\")\n",
+        "elif a >= 70:\n",
+        "  print(\"C등급\")\n",
+        "else:\n",
+        "  print(\"F등급\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yEl9Wj4E2Dr0",
+        "outputId": "45f6fb06-f281-4e6b-c54e-5f770a113eb3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "점수를 입력하세요 : 50\n",
+            "F등급\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"첫 번째 수 : \"))\n",
+        "b = int(input(\"첫 번째 수 : \"))\n",
+        "c = int(input(\"첫 번째 수 : \"))\n",
+        "if a > b and a > c:\n",
+        "  print(\"가장 큰 수는\",a,'입니다.')\n",
+        "elif b > a and b > c:\n",
+        "  print(\"가장 큰 수는\",b,'입니다.')\n",
+        "else:\n",
+        "  print(\"가장 큰 수는\",c,'입니다.')    "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EUvYtEqg2e8r",
+        "outputId": "94a6b34c-c0a9-45c1-8109-960b19097421"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "첫 번째 수 : 22\n",
+            "첫 번째 수 : 47\n",
+            "첫 번째 수 : 13\n",
+            "가장 큰 수는 47 입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"온도를 입력하세요 : \"))\n",
+        "if a < 0:\n",
+        "  print(\"물의 상태는 고체입니다.\")\n",
+        "elif 0 <= a < 100:\n",
+        "  print('물의 상태는 액체입니다.')\n",
+        "else:\n",
+        "  print(\"물의 상태는 기체입니다.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2dBvmC_V2fcD",
+        "outputId": "0755a96e-98dc-4ff9-de9b-f046b1d99556"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "온도를 입력하세요 : 80\n",
+            "물의 상태는 액체입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"영어시험 점수를 입력하세요 : \"))\n",
+        "b = int(input(\"수학시험 점수를 입력하세요 : \"))\n",
+        "if a > 80 and b > 80:\n",
+        "  print(\"최종 합격!\")\n",
+        "elif a > 80 or b > 80:\n",
+        "  print(\"재시험 기회제공\")\n",
+        "else:\n",
+        "  print('탈락')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LG_rD5VZ2gmj",
+        "outputId": "5a4c50e0-3aad-4e1d-b578-f436fe0f121b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "영어시험 점수를 입력하세요 : 85\n",
+            "수학시험 점수를 입력하세요 : 75\n",
+            "재시험 기회제공\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"서비스가 어떠셨나요?(예: 1 또는 2 또는 3) : \"))\n",
+        "b = int(input(\"음식값을 입력해 주세요(예:8000) : \"))\n",
+        "if a == 1:\n",
+        "  print(\"팁\",int(b * 0.2))\n",
+        "elif a == 2:\n",
+        "  print(\"팁\",int(b * 0.1))\n",
+        "else:\n",
+        "  print(\"팁\",int(b * 0.05))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "daLE4a-a2g-z",
+        "outputId": "e5784713-fa6e-4f7e-c4f7-719dc8d724d8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "서비스가 어떠셨나요?(예: 1 또는 2 또는 3) : 2\n",
+            "음식값을 입력해 주세요(예:8000) : 9000\n",
+            "팁 900\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"물건 구매가를 입력하세요 : \"))\n",
+        "print(\"구매가\",a)\n",
+        "if 50000 <= a < 300000:\n",
+        "  print(\"할인율 : 7.5\")\n",
+        "  print(\"할인금액 :\",int(a * 0.075)) \n",
+        "  print('지불금액',int(a - a * 0.075))\n",
+        "elif a <= 300000:\n",
+        "  print(\"할인율 : 10%\")\n",
+        "  print(\"할인금액 :\",int(a * 0.1)) \n",
+        "  print('지불금액',int(a - a * 0.1))\n",
+        "else:\n",
+        "  print(\"할인율 : 5%\")\n",
+        "  print(\"할인금액 :\",int(a * 0.05)) \n",
+        "  print('지불금액',int(a - a * 0.05))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yAezaGnF2hHF",
+        "outputId": "95a50ca4-e975-4480-b0c5-74c2df040934"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "물건 구매가를 입력하세요 : 60000\n",
+            "구매가 60000\n",
+            "할인율 : 7.5\n",
+            "할인금액 :  4500\n",
+            "지불금액 55500\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"원하는 메뉴를 선택하세요.\")\n",
+        "print(\"1.떡볶이 3000원\")\n",
+        "print(\"2.순대 2500원\")\n",
+        "print(\"3.튀김 3500원\")\n",
+        "a = int(input(\"번호 선택: \" ))\n",
+        "if a == 1:\n",
+        "  print(\"당신은 떡볶이를 선택하셨군요!\")\n",
+        "  b = int(input(\"떡볶이를 몇 인분 주문하시겠습니까?\"))\n",
+        "  print(\"총 가격은\",3000 * b,'입니다.')\n",
+        "elif a == 2:\n",
+        "  print(\"당신은 순대를 선택하셨군요!\")\n",
+        "  b = int(input(\"순대를 몇 인분 주문하시겠습니까?\"))\n",
+        "  print(\"총 가격은\",2500 * b,'입니다.')\n",
+        "elif a == 3:\n",
+        "  print(\"당신은 튀김을 선택하셨군요!\")\n",
+        "  b = int(input(\"튀김을 몇 인분 주문하시겠습니까?\"))\n",
+        "  print(\"총 가격은\",3500 * b,'입니다.')\n",
+        "else:\n",
+        "  print(\"1,2,3 중 하나를 선택해주세요.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MGMz4yCS2hRb",
+        "outputId": "5cd84e01-d5d9-48cf-f5c5-ceffb6f1b062"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "원하는 메뉴를 선택하세요.\n",
+            "1.떡볶이 3000원\n",
+            "2.순대 2500원\n",
+            "3.튀김 3500원\n",
+            "번호 선택: 2\n",
+            "당신은 순대를 선택하셨군요!\n",
+            "순대를 몇 인분 주문하시겠습니까?2\n",
+            "총 가격은 5000 입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "kg = int(input(\"체중을 입력하세요: \" ))\n",
+        "m = float(input(\"키를 입력하세요: \" ))\n",
+        "BMI = float(kg / m**2)\n",
+        "if 0 <= BMI < 15:\n",
+        "  print(\"당신의 BMI지수는\",BMI,'이며 정상입니다')\n",
+        "elif 15 <= BMI < 25:\n",
+        "  print(\"당신의 BMI지수는\",BMI,'이며 과체중입니다')\n",
+        "else:\n",
+        "  print(\"당신의 BMI지수는\",BMI,'이며 비만입니다')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wvGBNw5Y2heT",
+        "outputId": "6b0e0d11-84d3-4938-ee49-d6b01136bc3c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "체중을 입력하세요: 88\n",
+            "키를 입력하세요: 1.8\n",
+            "당신의 BMI지수는 27.160493827160494 이며 비만입니다\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Page13"
+      ],
+      "metadata": {
+        "id": "AAEhCHw29YuD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "kg = int(input(\"체중을 입력하세요: \"))\n",
+        "cm = int(input(\"키를 입력하세요(cm): \"))\n",
+        "age = int(input(\"성별을 입력하세요: \"))\n",
+        "gender = str(input(\"성별을 입력하세요 : 남자/여자 \"))\n",
+        "if gender == '남자':\n",
+        "  print(\"당신의 기초대사량은\",66.47+(13.75*kg)+(5 * cm) - (6.76*age),'입니다.')\n",
+        "else:\n",
+        "  print(\"당신의 기초대사량은\",655.1+(9.56*kg)+(1.85 * cm) - (4.68*age),'입니다.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3amLvspS9cAB",
+        "outputId": "e64275a0-bed6-497d-95b2-bbcc3347abf6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "체중을 입력하세요: 90\n",
+            "키를 입력하세요(cm): 183\n",
+            "성별을 입력하세요: 39\n",
+            "성별을 입력하세요 : 남자/여자 남자\n",
+            "당신의 기초대사량은 1955.3300000000004 입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 17\n",
+        "if x > 10:\n",
+        "  if x % 2 == 0:\n",
+        "    print(\"10초과 짝수\")\n",
+        "  else:\n",
+        "    print('10초과 홀수')\n",
+        "else:\n",
+        "  print(\"10이하\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kqYAwoU89cYB",
+        "outputId": "f60f7db1-77ee-4c6d-c398-0789cab4f6fe"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10초과 홀수\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = str(input(\"아이디를 입력하세요 : \"))\n",
+        "b = int(input(\"회원 레벨을 입력하세요: \"))\n",
+        "if 2 <= b < 8:\n",
+        "  if a == 'admin':\n",
+        "    print(\"모든 콘텐츠 이용 가능\")\n",
+        "  else:\n",
+        "    print(\"일부 콘텐츠 이용 가능\")\n",
+        "else:\n",
+        "  print(\"콘텐츠 이용 불가능\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TnsVwE2W9ckJ",
+        "outputId": "27e9621e-c452-4c32-8c81-b1bf3f66ad87"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "아이디를 입력하세요 : rubato\n",
+            "회원 레벨을 입력하세요: 3\n",
+            "일부 콘텐츠 이용 가능\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"현재년을 입력하세요: \"))\n",
+        "b = int(input(\"현재월을 입력하세요: \"))\n",
+        "c = int(input(\"현재일을 입력하세요: \"))\n",
+        "d = int(input(\"출생년을 입력하세요: \"))\n",
+        "e = int(input(\"출생월을 입력하세요: \"))\n",
+        "f = int(input(\"출생일을 입력하세요: \"))\n",
+        "if e < b:\n",
+        "  print(\"오늘 날짜 : \",a,'년',b,'월',c,'일')\n",
+        "  print(\"생년 월일 : \",d,'년',e,'월',f,'일')\n",
+        "  print(\"만 나이: \",a - d,'세')\n",
+        "elif e == b:\n",
+        "  if f < c:\n",
+        "    print(\"오늘 날짜 : \",a,'년',b,'월',c,'일')\n",
+        "    print(\"생년 월일: \",d,'년',e,'월',f,'일')\n",
+        "    print(\"만 나이: \",a - d,'세')\n",
+        "  else:\n",
+        "    print(\"오늘 날짜 : \",a,'년',b,'월',c,'일')\n",
+        "  print(\"생년 월일: \",d,'년',e,'월',f,'일')\n",
+        "  print(\"만 나이: \",a - d-1,'세')\n",
+        "else:\n",
+        "  print(\"오늘 날짜 : \",a,'년',b,'월',c,'일')\n",
+        "  print(\"생년 월일: \",d,'년',e,'월',f,'일')\n",
+        "  print(\"만 나이: \",a - d-1,'세')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_bMeyxNU9csQ",
+        "outputId": "9234270d-3101-4609-ccc6-b90a0cf18723"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "현재년을 입력하세요: 2020\n",
+            "현재월을 입력하세요: 1\n",
+            "현재일을 입력하세요: 27\n",
+            "출생년을 입력하세요: 1997\n",
+            "출생월을 입력하세요: 5\n",
+            "출생일을 입력하세요: 7\n",
+            "오늘 날짜 :  2020 년 1 월 27 일\n",
+            "생년 월일:  1997 년 5 월 7 일\n",
+            "만 나이:  22 세\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
