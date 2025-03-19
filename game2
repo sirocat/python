@@ -27,7 +27,7 @@ player.shape('triangle')
 player.color('blue')
 player.penup()
 
-
+# //
 goals = []
 goalCount = 6
 for i in range(goalCount):
