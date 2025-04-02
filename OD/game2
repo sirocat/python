@@ -1,5 +1,6 @@
 import turtle
 import random
+import time
 speed = 1
 
 screen = turtle.Screen()
@@ -89,6 +90,12 @@ while True:
             myPen.write(scoreString, False, align='left', font=('Arial', 14, 'normal'))
             score += 1
 
+        if score >= 3:
+            myPen.setposition(-50, 0)
+            myPen.write("Clear!", False, align='left', font=('Arial', 24, 'bold'))
+            time.sleep(5)
+            screen.bye()
+            break
 
 
 
