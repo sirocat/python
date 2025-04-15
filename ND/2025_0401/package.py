@@ -13,6 +13,7 @@ numNonePackage = totalNumber1 % myUnit
 
 print(f"꾸러미는 {int(numPackage)}개이고 남는 짜투리는 {int(numNonePackage)}개 입니다.")
 
+
 print("202530231 정주호")
 
 
