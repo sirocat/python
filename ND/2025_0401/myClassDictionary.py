@@ -10,6 +10,7 @@ while True:
         newPhone = input("전화: ")
         student = {'학번': newNumber, '이름': newName, '전화': newPhone}
         myClass.append(student)
+        # myClass[studentNumber] = [studentName,studentPhone]
         
     elif myMenuNumber == 2:  # 리스트 출력
         print("================================")
@@ -17,6 +18,8 @@ while True:
         print("--------------------------------")
         for student in myClass:
             print(student['학번'], " |", student['이름'], "|", student['전화'])
+        # for key in myClass.key():
+        #     print(f"   {key()} | {myClass.key(0)} | {myClass.key(1)}")    
         print("================================")
         
     elif myMenuNumber == 3:  # 학번으로 검색
